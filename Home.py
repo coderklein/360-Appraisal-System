@@ -29,3 +29,7 @@ logo = Image.open(logo)
 st.title("360° Appraisal System.")
 st.image(logo, use_column_width=True)
 
+is_logged_in = __login__obj.build_login_ui()
+
+if is_logged_in:
+    st.markown("The Application Begins here!")
