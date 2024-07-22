@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 from pathlib import Path
+from streamlit_login_auth_ui.widgets import __login__
 
 # STREAMLIT PAGE CONFIG.
 
